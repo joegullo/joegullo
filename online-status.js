@@ -7,7 +7,7 @@
 
             } else {
 
-                document.getElementById("online-status").innerHTML = `<div class="badge badge-outline"> Offline <span class='offline-status' style='padding-left:5px;>●</span></div>`;
+                document.getElementById("online-status").innerHTML = `<div class="badge badge-outline"> Offline <span class='offline-status' style='padding-left:5px;'>●</span></div>`;
 
             }
 
