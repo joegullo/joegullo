@@ -3,7 +3,7 @@
 
             if (navigator.onLine) {
 
-                document.getElementById("status").innerHTML = "Online <span class='online-status'>●</span>";
+                document.getElementById("status").innerHTML = "Online <span class='online-status' style='color:green;'>●</span>";
 
             } else {
 
