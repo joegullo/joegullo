@@ -1,6 +1,6 @@
 const options = { method: 'GET', headers: { accept: 'application/json' } };
 
-fetch('https://devapi.qweather.com/v7/weather/now?location=-73.75,42.65&unit=i&lang=en&key=c9b1bb2c019b4a79ae139442d0109b16', options)
+fetch('https://devapi.qweather.com/v7/weather/now?location=-73.75,42.65&unit=i&lang=en&key=[API_KEY]', options)
   .then(response => response.json())
   .then(response => {
     const temperature = response.now.temp;
